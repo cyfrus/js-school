@@ -1,0 +1,136 @@
+.navbar {
+  background-color: black !important;
+}
+option,
+select {
+  color: #8e8e8e !important;
+}
+.form_div {
+  background-color: #f8f8f8;
+  padding: 35px 45px;
+}
+.perks {
+  font-style: italic;
+  color: #8e8e8e;
+}
+.free_button {
+  background-color: #f7931e;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+h3 span {
+  color: #f89300;
+}
+.terms_of_use {
+  margin-top: 15px;
+  color: rgb(170, 170, 170);
+  font-size: 11px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2;
+}
+.terms_of_use span {
+  border-bottom: 2px solid #e4e4e4;
+}
+.sign {
+  margin-top: 35px;
+  margin-bottom: 55px;
+  color: #878787;
+}
+.sign a {
+  color: #28c1d7;
+}
+.sidebar {
+  padding: 0px 40px 40px 40px;
+}
+.sidebar h4 {
+  color: #797979;
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.our_team_div {
+  padding: 40px;
+  border-bottom: 1px solid #e5e5e5;
+  background-image: url("./images/sidebar_pepsi_background.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.our_team_div div {
+  margin-top: 50px;
+}
+.partners_div {
+  margin-top: 45px;
+}
+.partners_div img {
+  margin: auto 15px;
+}
+.trusted_div {
+  color: #888888;
+  margin-bottom: 45px;
+}
+.lowerContainer {
+  margin-top: 20px;
+}
+form input,
+form select {
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 10px;
+  padding-left: 35px !important;
+}
+.fname,
+.lname {
+  background-image: url("./images/personIcon.png");
+}
+.email {
+  background-image: url("./images/emailIcon.png");
+}
+.industry {
+  background-image: url("./images/industryIcon.png");
+}
+.password {
+  background-image: url("./images/passwordIcon.png");
+}
+.phone {
+  background-image: url("./images/phoneIcon.png");
+}
+.company {
+  background-image: url("./images/companyIcon.png");
+}
+.progressContainer {
+  padding: 0px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.progress {
+  background-color: rgb(221, 221, 221);
+  height: 1px;
+}
+.progress div {
+  position: absolute;
+  background-color: #00a8e5;
+  bottom: -2px;
+}
+.progress_percentage {
+  color: #00a8e5;
+  font-size: 12px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.form-group div {
+  color: red;
+  background-color: rgba(201, 14, 14, 0.1);
+  padding: 5px;
+  font-size: 14px;
+}
+
+.form-control:focus {
+  border: 1px solid #ced4da;
+  box-shadow: none;
+}
+
+

@@ -1,0 +1,104 @@
+<!doctype html>
+<html class="" lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="../../vendors/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-md navbar-light bg-light custom_navbar">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src="./images/apm_logo.png" alt="">
+			</a>
+			<ul class="navbar-nav mr-left">
+					<li class="nav-item talk_item">
+						Talk to an expert, call
+						<a href="#"> 855-378-0956</a>
+					</li>
+				</ul>
+		</div>
+	</nav>
+	<div class="container-fluid main_container">
+		<h1 class="text-center main_header">Looking for Qualified Property Management Companies in Boston, MA?</h1>
+		<h4 class="text-center smaller_header">We work tirelessly to find the best property managers, so you don't have to.
+			<br> Please use the filter below to find a perfect match for your property.</h4>
+		<div class="form_container">
+			<form action="https://www.allpropertymanagement.com/find/index.php?" method="GET">
+				<input type="hidden" name="thisSearchPage" value="HOME">
+				<input type="hidden" name="search" value="Y">
+				<div class="row first_row">
+					<div class="col-md-12 col-lg-8  d-flex flex-row align-items-center offset-md-0 offset-lg-2 first_container">
+						<img src="./images/icon1.png" class="icon1" alt="">
+						<h1 class="active_row_number">1</h1>
+						<div class="mr-auto">
+							What type of property do you own?
+						</div>
+						<div class="select_div">
+							<select class="js-states form-control type_of_property">
+								<option>Select property type</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-lg-8  d-flex flex-row align-items-center offset-md-0 offset-lg-2 second_container disabled">
+						<img src='./images/icon2.png' class='icon2'>
+						<h1 class="row_number2">2</h1>
+						<div class="mr-auto">
+							What is the value/size of property?
+						</div>
+						<div class="select_div">
+							<select name="t" id="" class="form-control property_size">
+								<option selected>Select property size</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-lg-8  d-flex flex-row align-items-center offset-md-0 offset-lg-2 third_container disabled">
+						<img src='./images/icon3.png' class='icon3'>
+						<h1 class="row_number3">3</h1>
+						<div class="mr-auto">
+							What is the zip code for the property?
+						</div>
+						<div class="select_div">
+							<input type="text" class="form-control zip_input" placeholder="Enter ZIP code" name="zip">
+						</div>
+					</div>
+				</div>
+		</div>
+		<button type="submit" class="main_button disabled_button" disabled>
+			Find property managers
+		</button>
+		</form>
+
+		<footer class="text-center">
+			<p class="copyright">Copyright© 2004-2016 / All Property Management™ / All Rights Reserved</p>
+			<div class="align-middle">
+				<span class="company_span">
+					A company from
+				</span>
+				<img src="./images/buildium_logo.png" class="buildium" alt="">
+			</div>
+		</footer>
+	</div>
+
+	<script src="../../js/jquery-1.11.3.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+	<script src="../../vendors/bootstrap/js/bootstrap.min.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>
